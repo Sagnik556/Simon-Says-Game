@@ -1,132 +1,146 @@
-🎮 Simon Says Game
+# Simon Says Game 🎮
 
-A simple and interactive Simon Says Game built using HTML, CSS, and JavaScript.
-This project recreates the classic memory-based game where players must repeat an increasingly complex sequence of colors.
+A responsive and interactive **Simon Says Game** built using **HTML, CSS, and JavaScript**.  
+This project recreates the classic memory game where players repeat an increasingly complex sequence of colors and sounds.
 
-📌 Project Overview
+---
 
-The Simon Says Game is a memory challenge game where:
+## 📌 Features
 
-The system generates a random color sequence.
+- Interactive gameplay with smooth UI animations
+- Randomized color sequence generation
+- Increasing difficulty with every level
+- Score/level tracking
+- Responsive design for desktop and mobile devices
+- Clean and modular project structure
 
-The player must repeat the sequence in the correct order.
+---
 
-Each correct round increases the difficulty by adding a new color.
+## 🛠️ Technologies Used
 
-The game ends when the player selects the wrong sequence.
+- **HTML5** – Structure of the game
+- **CSS3** – Styling and animations
+- **JavaScript (ES6)** – Game logic and interactivity
 
-This project focuses on DOM manipulation, event handling, animations, and game logic using pure JavaScript.
+---
 
-🚀 Features
+## 📂 Project Structure
 
-Interactive color buttons
-
-Random sequence generation
-
-Increasing difficulty levels
-
-Visual button flash effects
-
-Score/level tracking
-
-Game over detection and restart functionality
-
-Responsive design
-
-🛠️ Technologies Used
-
-HTML5 – Structure of the game
-
-CSS3 – Styling and animations
-
-JavaScript (ES6) – Game logic and interactivity
-
-📂 Project Structure
+```bash
 Simon-Says-Game/
 │
-├── index.html      # Main HTML structure of the game
+├── index.html      # Main HTML file
 ├── style.css       # Styling and animations
-├── app.js          # Core game logic and functionality
+├── app.js          # Game logic and functionality
 └── README.md       # Project documentation
-📄 File Description
-1️⃣ index.html
+```
 
-Contains the layout of the game.
+---
 
-Defines the colored buttons.
+## 📄 File Descriptions
 
-Links CSS and JavaScript files.
+### `index.html`
 
-Displays level information and game instructions.
+Contains the basic structure of the game interface including:
 
-2️⃣ style.css
+- Game title
+- Buttons/pads for gameplay
+- Score and level display
 
-Styles the game board and buttons.
+### `style.css`
 
-Adds hover and flash animations.
+Handles:
 
-Controls layout and responsiveness.
+- Layout and responsiveness
+- Button styles and hover effects
+- Flash animations and visual feedback
 
-3️⃣ app.js
+### `app.js`
 
-Handles game initialization.
+Implements:
 
-Generates random color sequences.
+- Random sequence generation
+- User input handling
+- Sequence validation
+- Game progression and restart functionality
 
-Tracks user input.
+---
 
-Compares user sequence with generated sequence.
+## 🚀 Getting Started
 
-Manages level progression.
+### 1. Clone the Repository
 
-Detects game over condition.
+```bash
+git clone https://github.com/your-username/simon-says-game.git
+```
 
-Resets the game.
+### 2. Navigate to the Project Folder
 
-🎯 How the Game Works
+```bash
+cd simon-says-game
+```
 
-Press any key to start the game.
+### 3. Open the Project
 
-The game flashes a random color.
+Simply open `index.html` in your browser.
 
-Click the flashed color.
+---
 
-A new color is added to the sequence.
+## 🎯 How to Play
 
-Repeat the full sequence correctly.
+1. Press any key or click the **Start** button to begin.
+2. Watch the sequence of flashing colors carefully.
+3. Repeat the sequence in the correct order.
+4. Each round adds a new color to the sequence.
+5. The game ends if you press the wrong color.
 
-Continue until you make a mistake.
 
-On mistake, the game resets.
 
-⚙️ Installation & Setup
 
-Clone the repository:
+---
 
-git clone https://github.com/your-username/Simon-Says-Game.git
+## 🔮 Future Improvements
 
-Navigate into the project folder:
+- Add sound effects
+- Add difficulty modes
+- Store high scores using Local Storage
+- Add multiplayer support
 
-cd Simon-Says-Game
+---
 
-Open index.html in your browser.
+## 🤝 Contributing
 
-No additional dependencies or installations are required.
+Contributions are welcome.
 
-🧠 Learning Objectives
+1. Fork the repository
+2. Create a new branch
 
-This project helps in understanding:
+```bash
+git checkout -b feature-name
+```
 
-DOM manipulation
+3. Commit your changes
 
-Event listeners
+```bash
+git commit -m "Add new feature"
+```
 
-Arrays and loops
+4. Push to your branch
 
-Random number generation
+```bash
+git push origin feature-name
+```
 
-Game logic structuring
+5. Open a Pull Request
 
-Basic animation using CSS
+---
 
-State management in JavaScript
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Sagnik Dasgupta**
